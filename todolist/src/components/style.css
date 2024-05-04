@@ -1,0 +1,77 @@
+.formlabel{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+.listitem{
+    font-size: 18px;
+    color: #333;
+    background-color: rgb(220, 245, 233);
+    border: 1px solid #686e69;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.listitem input{
+    margin-right: 10px;
+    border: 1px solid #d6e6cc;
+    outline: none;
+    width:10rem;
+    height: 2rem;
+    border-radius: 5px;
+
+    
+}
+.listitem input[type="checkbox"]{
+    width: 1rem;
+    height: 1rem;
+    
+}
+.lbl{
+    margin-right: 10px;
+    font-weight: 400;
+}
+.listAddItem{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listAddItem input{
+    width: 8rem;
+    height: 1.8rem;
+    border: 1px solid #d6e6cc;
+    outline: none;
+    margin-left: 8px;
+    border-radius: 5px;
+    margin-right: 8px;
+    
+
+}
+.listAddItem button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.listitem button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
